@@ -32,6 +32,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
-  border: 2px solid gold;
+  border: 5px solid gold;
   height: 100vh;
+  /* flex-direction: row; */ // main axis is from left to rigth
+  /* flex-direction: column; // Cross axis goes from top to bottom*/
+  flex-direction: row-reverse;
+  flex-direction: column-reverse;
 }
