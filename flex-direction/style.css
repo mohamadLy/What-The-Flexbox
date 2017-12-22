@@ -36,11 +36,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   border:10px solid goldenrod;
   min-height:100vh;
   flex-direction: row-reverse;
-  flex-wrap:wrap-reverse;
+  flex-wrap:wrap;
   /* flex-wrap: nowrap;// is the default */
 }
 
 .box {
-  width: calc(33.33% - 20px); // use of calc to fix the margin
+  width: calc(33.33%); // use of calc to fix the margin
   margin: 10px;
 }
