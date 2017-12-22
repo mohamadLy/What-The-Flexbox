@@ -34,13 +34,17 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .box {
-  flex:1;
+  /* flex:1; // for flex item to occupy all the width */
+  order: 0; // default order is zero no need to specifying it.
 }
 
-.box3 {
-  order:1;
+.box2 {
+  order: 4;
+}
+.box4 {
+  order: 1;
 }
 
-.box5 {
-  order:2;
+.box7 {
+  order: 2;
 }
